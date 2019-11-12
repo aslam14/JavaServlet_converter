@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+	</head>
+<body style="margin: 60px 30%">
+
+
+<div align="center" style="background-color: grey" >
+   <br /> 
+   <h1 class="text-primary">Currency Converter (WS 2019)</h1>
+   
+   <form action="welcome" method="Get" id="converterForm">
+	   <Label> Input Currency</Label>
+	   <input type="number" name="inputCurrency"/>
+	   <br />
+	   <br />
+	   <Label> User name</Label>
+	   <input type="text" name="username" />
+	   <br />
+	   <br />
+	   
+	   	<select name="targetCurrency" form="converterForm">
+					<option value="Dollar">Dollar</option>
+					<option value="Pound">Pound</option>
+					<option value="Yen">Yen</option>
+					<option value="Yuan">Yuan</option>
+		</select>
+		<br />
+	   <br />
+	   
+	    <input type="submit" value="Submit">
+	    <input type="reset" >
+	    <br /> <br /> 
+	    <label>Result: </label>
+				<output type="text" for="inputCurrency targetCurrency"> </output>
+   </form>
+
+      <br /> <br />  
+</div>
+
+</body>
+</html>
